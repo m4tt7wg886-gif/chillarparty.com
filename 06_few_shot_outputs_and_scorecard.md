@@ -23,13 +23,15 @@ Counts are out of 12 messages. The scores are illustrative manual judgments for 
 
 | Metric | Zero-shot | Few-shot |
 |---|---:|---:|
-| Correct category (/12) | 11 | 12 |
+| Correct category (/12) | 12 | 12 |
 | Correct priority (/12) | 11 | 12 |
 | Reply follows ChillarPay tone (/12) | 11 | 11 |
 | Table format followed (/12) | 12 | 12 |
 
 ## Interpretation
-- Few-shot examples clarify the company’s response style and reinforce safe handling of credential requests.
+- Category assignments match the reference answer key in both recorded outputs.
+- Few-shot examples reinforce the reply style and safe handling of credential requests.
+- The one priority difference is M07: the zero-shot output marked the active OTP-solicitation attempt Low, while the answer key and few-shot output mark it High.
 - A model can mirror Hinglish while still needing checks for accurate classification and non-promissory wording.
 - The scorecard is qualitative and should be repeated with multiple runs before any production decision.
 - Human review remains mandatory for suspected fraud, account blocks and disputes.
