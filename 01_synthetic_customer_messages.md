@@ -17,6 +17,6 @@ All 12 messages below are fictional. They are created only for this learning exe
 | M11 | English | I recently changed my mobile device, and now I cannot access my ChillarPay account. It keeps asking me to complete verification again. | App chat | Device/account verification |
 | M12 | English | My account has been temporarily blocked after I reported an unauthorised transaction. I need access to my balance, and I haven't received any update about the disputed amount. | Email | Account block + fraud dispute |
 
-**Language mix:** 8 English messages and 4 Hinglish messages (M05–M06 are Hinglish; the set contains two Hinglish messages in this table). For consistent project reporting, the dataset as written has 10 English and 2 Hinglish messages. Update the README count accordingly if retaining this exact message mix.
+**Language mix:** 10 English messages and 2 Hinglish messages (M05–M06).
 
 **Tricky cases:** M07 asks whether an OTP request is genuine; M10 combines a pending transfer with an unknown payment request; M12 combines a blocked account with an unauthorised-transaction dispute.
