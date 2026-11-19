@@ -1,4 +1,23 @@
-# Step 2 — Zero-shot output (recorded example)
+# Steps 1–2 — Recorded zero-shot outputs
+
+## Step 1: One-line summaries
+
+| ID | Summary |
+|---|---|
+| M01 | Payment deducted, but merchant has not received the money. |
+| M02 | Refund not credited after five working days. |
+| M03 | Suspicious login attempt detected on customer's account. |
+| M04 | KYC verification fails despite multiple document uploads. |
+| M05 | Payment successful, but shopkeeper hasn't received the deducted amount. |
+| M06 | Refund delayed for one week after transaction cancellation. |
+| M07 | Caller requests OTP to reverse a failed payment. |
+| M08 | Customer reports duplicate deduction and poor support service. |
+| M09 | KYC verification pending since yesterday. |
+| M10 | Pending transfer alongside suspicious payment request from unknown user. |
+| M11 | Customer cannot access account after changing mobile device. |
+| M12 | Account blocked after fraud report; disputed balance remains unresolved. |
+
+## Step 2: Zero-shot category, priority and reply
 
 The following is the zero-shot classification output captured for the 12 synthetic messages. Replies are kept concise for the exercise.
 
@@ -17,4 +36,4 @@ The following is the zero-shot classification output captured for the 12 synthet
 | M11 | Account & KYC | Low | Sorry for the inconvenience. Please complete device verification using the app's instructions to regain account access. |
 | M12 | Account & KYC | High | We understand your concern. Your blocked account and disputed transaction require urgent review. Please contact our support team securely. |
 
-*Illustrative captured output for this fictional exercise; it is not a live ChillarPay system response.*
+*Illustrative captured outputs for this fictional exercise; they are not live ChillarPay system responses.*
